@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AzureDataIntegration", "AzureDataIntegration\AzureDataIntegration.dtproj", "{8A24C27D-01E5-4CD8-936C-400E34A29CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsReadAPIConsole", "GoogleAnalyticsReadAPIConsole\GoogleAnalyticsReadAPIConsole.csproj", "{42B1B91D-25E1-4396-964E-3F6B3D9D7451}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Any CPU = Azure|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Azure|Any CPU.ActiveCfg = Azure
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Azure|Any CPU.Build.0 = Azure
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Debug|Any CPU.ActiveCfg = Development
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Debug|Any CPU.Build.0 = Development
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Development|Any CPU.ActiveCfg = Development
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Development|Any CPU.Build.0 = Development
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Release|Any CPU.ActiveCfg = Azure
+		{8A24C27D-01E5-4CD8-936C-400E34A29CB3}.Release|Any CPU.Build.0 = Azure
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B1B91D-25E1-4396-964E-3F6B3D9D7451}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6F83893-DE02-430B-B95E-7DA4D64AFBC4}
+	EndGlobalSection
+EndGlobal
